@@ -1,0 +1,109 @@
+body{
+    background-image:url("img/park9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center; 
+}
+.main_content .main{
+    font-size:24px;
+    font-family:cursive;
+    color:rgb(13, 45, 58);
+}
+.content{
+    font-size:24px;
+    font-family:cursive;
+    color:rgb(13, 45, 58);
+    position:absolute;
+    left:10px;
+    top:550px;
+    line-height: 50px;
+    padding-right:100%;
+}
+.content .para1{
+    position: absolute;
+    top:0px;
+}
+.content .para2{
+    position: absolute;
+    top:250px;
+}
+.content .para3{
+    position: absolute;
+    top:500px;
+}
+.content .para4{
+    position: absolute;
+    top:750px;
+}
+#title{
+    font-size: 40px;
+    font-family: cursive;
+    color:rgb(105, 76, 76);
+}
+.page1{
+    position: absolute;
+    right:30px;
+    top:2px;
+    margin-top: 30px;
+}
+.page1 li{
+    display: inline-block;
+}
+.page1 li a{
+    color:black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: cursive;
+    font-size: 16px;
+}
+.page1 li a:hover{
+    background:rgb(136, 135, 202);
+    color: rgb(15, 12, 12);
+    border-radius: 10px;
+    opacity: 0.8;
+}
+#img1{
+    height: 850px; 
+    width: 100%;
+    position:absolute;
+    top:590px;
+    background-position:center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+.explore{
+    height:160px;
+    width:290px;
+    position: absolute;
+    top:300px;
+    left:500px;
+    border: 7px solid rgb(89, 148, 89);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30%;
+    animation:pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    
+}
+.explore p a{
+    color: rgb(3, 97, 45);
+    font-family: Forte;
+    font-size:70px;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.explore:hover{
+    animation:rubberBand;
+    animation-duration:1s;
+    opacity:1.5;
+}
+.charges{
+    font-size: 20px;
+    font-family:cursive;
+    position:absolute;
+    top:230px;
+    left:20px;
+}

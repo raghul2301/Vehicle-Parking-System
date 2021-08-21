@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(175, 177, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    }
+
+    html {
+    box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+
+    .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    }
+
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    }
+
+    .about-section {
+    padding: 50px;
+    text-align: center;
+    background-image:linear-gradient(to right, rgb(143, 163, 143) , rgb(149, 218, 197), rgb(141, 184, 192));
+    color: white;
+    }
+
+    .container {
+    padding: 0 17px;
+    background-color: rgb(245, 245, 245);
+    position:absolute;
+    width:423px;
+    height:180px;
+    }
+
+    .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+    .title {
+    color: rgb(71, 23, 23);
+    }
+
+    @media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+    }
+    .linkedin{
+        background-color: #3682f4;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 20%;
+    }
+    .linkedin:hover{
+        opacity:0.8;
+    }
+    .mail{
+        font-family: cursive;
+        color:black;
+    }
+    #img1{
+        height: 800px;
+        width: 100%;
+        background-position:center;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+    }
+    #about{
+        position: absolute;
+        top:20px;
+        left:600px;
+        font-size: 32px;
+    }
+    .aboutweb{
+        position: absolute;
+        top:60px;
+        left:10px;
+        font-size: 30px;
+        font-family:cursive;
+        padding-right:100%;
+    }
+    .aboutweb h2{
+        position: absolute;
+        top:10px;
+        left:10px;
+        font-size: 30px;
+        font-family:cursive;
+        
+    }
+    .aboutweb label{
+        position: absolute;
+        top:80px;
+        left:10px;
+        font-size: 30px;
+        font-family:cursive;
+    }
+    .aboutus{
+        position: absolute;
+        top:260px;
+        left:10px;
+        font-size: 30px;
+        font-family:cursive;
+        padding-right:100%;
+    }
+    .aboutus h2{
+        position: absolute;
+        top:210px;
+        left:10px;
+        font-size: 30px;
+        font-family:cursive;
+        
+    }
+    .aboutus p{
+        position: absolute;
+        top:280px;
+        left:10px;
+        font-size: 30px;
+        font-family:cursive;
+    }

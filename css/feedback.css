@@ -1,0 +1,53 @@
+body{
+    background-image:  linear-gradient(to right, rgb(168, 190, 126) , rgb(140, 184, 111), rgb(97, 204, 177));;
+}
+#img1{
+    width: 100%;
+    opacity:0.3;
+}
+.details{
+    position:absolute;
+    left:300px;
+    top:130px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    border: 2px solid black;
+    border-radius: 20%;
+    font-family: cursive;
+    font-size:25px;
+
+}
+#title{
+    font-family: cursive;
+    position:absolute;
+    top:60px;
+    left:499px;
+    color:black;
+}
+#cmt{
+    opacity:0.6;
+    font-size:16px;
+    color:black;
+}
+#mail{
+    opacity:0.6;
+    font-size:18px;
+    color:black;
+    padding-right: 180px;
+    padding-top:7px;
+    padding-bottom: 7px;
+}
+.btn{
+    color: black;  
+    background: rgb(120, 185, 76);  
+    padding: 10px 20px;  
+    margin-left: 30%;  
+    border-radius: 20%;
+    font-family: cursive;
+    position:absolute;
+    left:90px;
+    font-size: 17px;
+    opacity:0.9;
+}

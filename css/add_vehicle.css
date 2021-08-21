@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(to right, rgb(143, 163, 143) , rgb(149, 218, 197), rgb(141, 184, 192));
+}
+#title{
+    font-family: cursive;
+    color:mediumpurple;
+    position:absolute;
+    left:500px;
+}
+#token{
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20%;
+}
+a:hover{
+    opacity: 0.8;
+}
+.cover{
+    position:absolute;
+    left:400px;
+    top:50px;
+    font-family: cursive;
+    color:teal;
+    font-size:20px;
+}
+.hola{
+    font-family: cursive;
+    font-size: 16px;
+    width: 200px;
+    height: 30px;
+    opacity:0.5;
+}
+input[type=radio] {
+    border: 0px;
+    width: 10%;
+    transform: scale(1.2);
+}
+.click{
+    color: #fff;  
+    background: #58afc5;  
+    padding: 10px;  
+    margin-left: 30%;  
+    border-radius: 10%;
+    font-family: cursive;
+}
+.click:hover{
+    opacity: 0.7;
+}
+#note{
+    color :black;
+}

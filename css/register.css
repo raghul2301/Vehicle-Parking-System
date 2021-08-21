@@ -1,0 +1,81 @@
+body{   
+    background-image:url("img/park10.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.tesla{
+    border: solid gray 1px;  
+    width:20%;  
+    border-radius: 6px;  
+    margin: 100px auto;  
+    background-color:rgb(24, 26, 26);
+    padding-top:420px; 
+    padding-right: 180px;  
+    padding-bottom:100px;
+    font-family: cursive;
+    font-size:20px;
+    position: absolute;
+    top:0px;
+    left:80px;
+    opacity:0.5;
+}
+#click{  
+    color: rgb(29, 15, 15);  
+    background:#dce2e4;   
+    padding: 7px 20px;
+    margin-left: 30%;  
+    border-radius: 20%;
+    font-family: cursive;
+    font-size:17px;
+}
+
+#reg{
+    font-family:cursive;
+    position:absolute;
+    top:70px;
+    left:630px;
+}
+#log{
+    font-size: 17px;
+    position:absolute;
+    top:330px;
+    left:65px;
+    color:rgb(207, 193, 193);
+}
+#log a{
+    color:white;
+}
+.ef :hover{
+    opacity:0.8;
+}
+#ins1{
+    color:rgb(221, 217, 217);
+    font-family:cursive;
+    font-size:25px;
+    position:absolute;
+    top:120px;
+    left:120px;
+}
+#ins2{
+    color:rgb(221, 217, 217);
+    font-family:cursive;
+    font-size:17px;
+    position:absolute;
+    top:170px;
+    left:120px;
+}
+.tes{
+    position:absolute;
+    top:230px;
+    left:130px;
+    padding-right:280px;
+}
+.hola{
+    padding-right:180px;
+    padding-top:8px;
+    padding-bottom:8px;
+    opacity: 0.9;
+    font-size:16px;
+}

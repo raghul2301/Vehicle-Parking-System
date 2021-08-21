@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        font-family: cursive;
+        }
+
+        body{
+        background-color: #f3f5f9;
+        }
+
+        .wrapper{
+        display: flex;
+        position: relative;
+        }
+
+        .wrapper .sidebar{
+        width: 200px;
+        height: 100%;
+        background: #221b46;
+        padding: 30px 0px;
+        position: fixed;
+        }
+
+        .wrapper .sidebar h2{
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 30px;
+        }
+
+        .wrapper .sidebar ul li{
+        padding: 15px;
+        border-bottom: 1px solid #bdb8d7;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+        border-top: 1px solid rgba(255,255,255,0.05);
+        }    
+
+        .wrapper .sidebar ul li a{
+        color: #bdb8d7;
+        display: block;
+        }
+
+        .wrapper .sidebar ul li a .fas{
+        width: 25px;
+        }
+
+        .wrapper .sidebar ul li:hover{
+        background-color: #594f8d;
+        }
+            
+        .wrapper .sidebar ul li:hover a{
+        color: #fff;
+        }
+        
+        
+
+        .wrapper .main_content{
+        width: 100%;
+        margin-left: 200px;
+        }
+
+        .wrapper .main_content .header{
+        padding: 20px;
+        background: #fff;
+        color: #717171;
+        border-bottom: 1px solid #e0e4e8;
+        }
+
+        .wrapper .main_content .info{
+        margin: 20px;
+        color: #717171;
+        line-height: 25px;
+        }
+
+        .wrapper .main_content .info div{
+        margin-bottom: 20px;
+        }
+        .fields .registration{
+                font-family: cursive;
+                font-size:16px;
+                padding-top: 40px;
+                padding-right: 100px;
+                padding-bottom: 40px;
+                padding-left: 40px;
+                position:absolute;
+                top:100px;
+                left: 200px;
+                border-radius:20%;
+                background-image:linear-gradient(to right, rgb(207, 207, 191) , rgb(212, 182, 176));
+                opacity:0.8;
+        }
+        .fields .vehicles{
+                font-family: cursive;
+                font-size:16px;
+                padding-top: 40px;
+                padding-right: 150px;
+                padding-bottom: 40px;
+                padding-left: 40px;
+                position:absolute;
+                top:350px;
+                left: 200px;
+                border-radius:20%;
+                background-image:linear-gradient(to right, rgb(207, 207, 191) , rgb(212, 182, 176));
+                opacity:0.8;
+        }
+        .fields:hover{
+            opacity:0.8;
+        }
+        .prereg{
+                height:160px;
+                width:490px;
+                position: absolute;
+                top:450px;
+                left:800px;
+                border: 7px solid rgb(69, 160, 202);
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 30%;
+                animation:pulse;
+                animation-iteration-count: infinite;
+                animation-duration: 1s;
+                
+            }
+            .prereg p a{
+                color: rgb(8, 121, 136);
+                font-family: Forte;
+                font-size:50px;
+                position:absolute;
+                top:30px;
+                left:80px;
+                text-decoration: none;
+            }
+            .prereg:hover{
+                animation:headShake;
+                animation-duration:1s;
+                opacity:1.5;
+            }
+            .extraserve{
+                height:160px;
+                width:490px;
+                position: absolute;
+                top:160px;
+                left:800px;
+                border: 7px solid rgb(69, 160, 202);
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 30%;
+                animation:pulse;
+                animation-iteration-count: infinite;
+                animation-duration: 1s;
+                
+            }
+            .extraserve p a{
+                color: rgb(8, 121, 136);
+                font-family: Forte;
+                font-size:50px;
+                position:absolute;
+                top:30px;
+                left:80px;
+                text-decoration: none;
+            }
+            .extraserve:hover{
+                animation:headShake;
+                animation-duration:1s;
+                opacity:1.5;
+            }
+            
