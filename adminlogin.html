@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>personallogin</title>
+        <script src="adminlogin.js"></script>
+        <link rel="stylesheet" href="css/adminlogin.css">
+    </head>
+    <body>
+            <div class="tesla">
+            </div>
+            <div class="form">
+                <p id="inst1">Admin-login</p>
+                <p id="note">Note: Page accessible by admin only</p>
+                <p> 
+                    <input type="email" name="firstname" placeholder="Email" id="in1" autocomplete="off" required>
+                </p>
+                <p>
+                    <input type="password" name="password" placeholder="Password" id="in2" autocomplete="off" required>
+                </p>
+                <button onclick="validate(document.getElementById('in1').value,document.getElementById('in2').value)" id="click" class="btn">Click</button>
+            </div>
+    </body>
+</html>
