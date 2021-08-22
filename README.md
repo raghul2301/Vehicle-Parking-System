@@ -9,6 +9,7 @@ Contact us: This page contains contact details of us.
 Feedback:Users can post their opinion in the feedback page.
 
 Details:
+
 •	Language Used: PHP for backend processing.
 •	Database: MySQL for database.
 •	User Interface Design for front end:  HTML 5 (HyperText Markup Language), CSS3,JAVASCRIPT.
@@ -17,6 +18,7 @@ Details:
 
 
 Project Implementation:
+
       1. Download and install xampp server.
       2. Start apache web server and mysql database on xampp.
       3. Create a project in the xampp (C:/xampp/htdocs/folder_name/files)
