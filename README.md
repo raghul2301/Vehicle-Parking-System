@@ -13,12 +13,16 @@ Contact us: This page contains contact details of us.
 
 Feedback:Users can post their opinion in the feedback page.
 
-Details:
 
+Details:
 •	Language Used: PHP for backend processing.
+
 •	Database: MySQL for database.
+
 •	User Interface Design for front end:  HTML 5 (HyperText Markup Language), CSS3,JAVASCRIPT.
+
 •	Web Browser: Mozilla Firefox, Google Chrome, Internet Explorer 8 and above, OPERA.
+
 •	Software: XAMPP Web Server for Windows and LAMP for Linux.
 
 
