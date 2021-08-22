@@ -2,26 +2,21 @@
 
 
 The main objective of the Vehicle Parking  System is to keeps records of the vehicle which is going to park in the parking area.
-Home: This page contains details about our project and users can enter feedback, aboutus, login and signup pages from home page
+      
+      Home: This page contains details about our project and users can enter feedback, aboutus, login and signup pages from home page
       mainpage: In this section, users can briefly view the number of vehicle entry and exit details.
-
-About us: This page contains information about us.
-
-Contact us: This page contains contact details of us.
-
-Feedback:Users can post their opinion in the feedback page.
+      About us: This page contains information about us.
+      Contact us: This page contains contact details of us.
+      Feedback:Users can post their opinion in the feedback page.
 
 
 Details:
-•	Language Used: PHP for backend processing.
 
-•	Database: MySQL for database.
-
-•	User Interface Design for front end:  HTML 5 (HyperText Markup Language), CSS3,JAVASCRIPT.
-
-•	Web Browser: Mozilla Firefox, Google Chrome, Internet Explorer 8 and above, OPERA.
-
-•	Software: XAMPP Web Server for Windows and LAMP for Linux.
+      •	Language Used: PHP for backend processing.
+      •	Database: MySQL for database.
+      •	User Interface Design for front end:  HTML 5 (HyperText Markup Language), CSS3,JAVASCRIPT.
+      •	Web Browser: Mozilla Firefox, Google Chrome, Internet Explorer 8 and above, OPERA.
+      •	Software: XAMPP Web Server for Windows and LAMP for Linux.
 
 
 Project Implementation:
