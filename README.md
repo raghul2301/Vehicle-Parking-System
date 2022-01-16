@@ -1,7 +1,7 @@
 # Vehicle-Parking-System
 
 
-The main objective of the Vehicle Parking  System is to keeps records of the vehicle which is going to park in the parking area.
+The main objective of the Vehicle Parking System is to keeps records of the vehicle which is going to park in the parking area.
       
       Home: This page contains details about our project and users can shift to feedback page, aboutus page, login and signup pages from home page
       mainpage: In this section, users can briefly view the number of vehicle entry and exit details.
